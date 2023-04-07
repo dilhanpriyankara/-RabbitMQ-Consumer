@@ -10,10 +10,10 @@ Queue: stores messages
 Consumer: processes the message
 
 #Install RabbitMQ using Docker
-Assuming the Docker Desktop has been installed, we use the following command to pull a RabbitMQ Docker image from DockerHub.
+ Assuming the Docker Desktop has been installed, we use the following command to pull a RabbitMQ Docker image from DockerHub.
 
-docker pull rabbitmq:3.11-management
+# docker pull rabbitmq:3.11-management
 
-After the Docker image is downloaded and saved, we can start a RabbitMQ container using the following command:
+ After the Docker image is downloaded and saved, we can start a RabbitMQ container using the following command:
 
-docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.11-management
+# docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.11-management
